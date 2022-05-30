@@ -26,7 +26,6 @@
     left: 5%;
     font-size: 30px;
     color: white;
-   
     cursor: pointer;
 }
 #nextBtn{
@@ -36,6 +35,28 @@
     left: 95%;
     font-size: 30px;
     color: white;
-    
     cursor: pointer;
+}
+.dots{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+   
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: transform 0.5s ease;
+}
+
+.active{
+    background: rgb(197, 10, 10);
+}
+.first,
+.last{
+    display: none;
 }
