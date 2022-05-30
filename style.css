@@ -26,7 +26,7 @@
     left: 5%;
     font-size: 30px;
     color: white;
-    opacity: 0.5;
+   
     cursor: pointer;
 }
 #nextBtn{
@@ -36,6 +36,6 @@
     left: 95%;
     font-size: 30px;
     color: white;
-    opacity: 0.5;
+    
     cursor: pointer;
 }
